@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A creative digital agency crafting immersive brand experiences and stunning web solutions." />
+  <title>Studio — Creative Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar" class="navbar">
+    <div class="navbar__logo">
+      <svg class="navbar__logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 2L18 14L30 16L18 18L16 30L14 18L2 16L14 14L16 2Z" fill="white" stroke="white" stroke-width="1"/>
+      </svg>
+    </div>
+
+    <nav class="navbar__nav">
+      <a href="#about" class="navbar__link">About</a>
+        <a href="#projects" class="navbar__link" data-text="Projects">Projects</a>
+        <a href="#works" class="navbar__link" data-text="Process">Process</a>
+        <a href="#events" class="navbar__link" data-text="Campaigns">Campaigns</a>
+      <a href="#awards" class="navbar__link">Awards</a>
+    </nav>
+
+    <a href="#contact" class="navbar__cta" id="nav-cta">Let's talk</a>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero">
+    <div class="hero__video-container">
+      <video id="hero-video" class="hero__video" autoplay muted loop playsinline>
+        <source src="assets/videos/5821504-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__content">
+      <h1 class="hero__title" id="hero-title">
+        <span class="hero__title-line">A Creative</span>
+        <span class="hero__title-line">Digital Agency</span>
+      </h1>
+      <p class="hero__subtitle" id="hero-subtitle">
+        We craft immersive digital experiences, striking brand identities, and
+        innovative web solutions that redefine how audiences interact with brands online.
+      </p>
+      <a href="#contact" class="hero__cta" id="hero-cta">
+        <span>Book a Call</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="hero__scroll" id="hero-scroll">
+      <div class="hero__scroll-line"></div>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="projects">
+    <div class="projects__header">
+      <h2 class="section-title">Projects.</h2>
+      <p class="section-subtitle">A curated selection of bespoke garments, blending traditional craftsmanship with avant-garde silhouettes for modern elegance.</p>
+    </div>
+
+    <!-- Project 1: Red Embroidered Gown -->
+    <div class="project-card" data-animate>
+      <div class="project-card__image">
+        <span class="project-card__tag">BRIDAL COUTURE</span>
+        <img src="assets/images/pexels-howdy-30542768.jpg" alt="Crimson Phoenix Gown" />
+      </div>
+      <div class="project-card__info">
+        <span class="project-card__season">LUNAR COLLECTION</span>
+        <h3 class="project-card__title">The Crimson Phoenix Gown</h3>
+        <p class="project-card__text">
+          <strong>The Inspiration:</strong> A modern reinterpretation of traditional Eastern bridal wear, merging classic cheongsam elements with a dramatic red carpet silhouette.
+        </p>
+        <p class="project-card__text">
+          <strong>The Craftsmanship:</strong> Features intricate gold thread embroidery detailing a rising phoenix, hand-stitched over vibrant crimson silk. The structured collar gives way to a sweeping, dramatic train, balancing cultural heritage with striking contemporary design.
+        </p>
+        <a href="#" class="project-card__btn">View Details</a>
+      </div>
+    </div>
+
+    <!-- Project 2: Silver & Gold Tulle Mini (reversed) -->
+    <div class="project-card project-card--reverse" data-animate>
+      <div class="project-card__info">
+        <span class="project-card__season">SPRING GALA</span>
+        <h3 class="project-card__title">Metallic Illusion Mini</h3>
+        <p class="project-card__text">
+          <strong>The Inspiration:</strong> Exploring the contrast between structure and weightlessness, using metallic textures against ethereal, cloud-like volume.
+        </p>
+        <p class="project-card__text">
+          <strong>The Craftsmanship:</strong> A form-fitting strapless bodice crafted from shimmering silver lurex fabric. The centerpiece is the exaggerated, sculptural arm pieces made from yards of gathered, honey-gold tulle, creating a dramatic, avant-garde silhouette.
+        </p>
+        <a href="#" class="project-card__btn">View Details</a>
+      </div>
+      <div class="project-card__image">
+        <span class="project-card__tag">EDITORIAL</span>
+        <img src="assets/images/pexels-danilo-gutierrez-95843730-28525052.jpg" alt="Metallic Illusion Mini" />
+      </div>
+    </div>
+
+    <!-- Project 3: Black Fringe Dress -->
+    <div class="project-card" data-animate>
+      <div class="project-card__image">
+        <span class="project-card__tag">LUXURY EVENING</span>
+        <img src="assets/images/pexels-koraybozkurt-15432337.jpg" alt="Midnight Mesh & Fringe" />
+      </div>
+      <div class="project-card__info">
+        <span class="project-card__season">FALL/WINTER</span>
+        <h3 class="project-card__title">Midnight Mesh & Fringe</h3>
+        <p class="project-card__text">
+          <strong>The Inspiration:</strong> A dark, sensual take on 1920s flapper glamour, updated for the modern femme fatale with industrial textures.
+        </p>
+        <p class="project-card__text">
+          <strong>The Craftsmanship:</strong> A plunging neckline inset with bold geometric honeycomb mesh. Dense, hand-cut black fringe cascades down the bodice and skirt hem, creating dynamic movement and texture against the structured matte black silhouette.
+        </p>
+        <a href="#" class="project-card__btn">View Details</a>
+      </div>
+    </div>
+
+    <!-- Project 4: Lace & Bronze Mermaid (reversed) -->
+    <div class="project-card project-card--reverse" data-animate>
+      <div class="project-card__info">
+        <span class="project-card__season">HAUTE COUTURE</span>
+        <h3 class="project-card__title">Autumnal Lace Mermaid</h3>
+        <p class="project-card__text">
+          <strong>The Inspiration:</strong> The transition of seasons, capturing the delicate frost on late autumn foliage using contrasting textures and rich, earthy tones.
+        </p>
+        <p class="project-card__text">
+          <strong>The Craftsmanship:</strong> An intricate white guipure lace bodice with long sleeves transitioning into a sheer, structured corset waist. The gown explodes into a voluminous, structured bronze/rust tulle mermaid skirt, finished with matching white lace appliqué at the hem.
+        </p>
+        <a href="#" class="project-card__btn">View Details</a>
+      </div>
+      <div class="project-card__image">
+        <span class="project-card__tag">RUNWAY EXCLUSIVE</span>
+        <img src="assets/images/pexels-kaybee-photography-664870201-32551068.jpg" alt="Autumnal Lace Mermaid" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORKS / PROCESS SECTION ===== -->
+  <section id="works" class="works">
+    <div class="works__container">
+      <div class="works__header">
+        <div class="works__header-text">
+          <span class="works__label">ATELIER</span>
+          <h2 class="section-title section-title--dark">The Process.</h2>
+          <p class="section-subtitle section-subtitle--dark">A glimpse behind the seams. From initial sketching and pattern drafting to the final meticulous hand-stitching that brings our haute couture visions to life.</p>
+        </div>
+        <a href="#" class="works__archive-btn">View Full Process</a>
+      </div>
+      <div class="works__grid">
+        
+        <div class="works__item works__item--tall" data-animate>
+          <img src="assets/images/work/pexels-michael-burrows-7147601.jpg" alt="Sketching and Conceptualization" />
+          <div class="works__caption">
+            <h4>01. Conceptualization</h4>
+            <p>Every piece begins as a vision on paper, sketching silhouettes and exploring textile possibilities.</p>
+          </div>
+        </div>
+
+        <div class="works__item" data-animate>
+          <img src="assets/images/work/pexels-michael-burrows-7147643.jpg" alt="Fabric Selection" />
+          <div class="works__caption">
+            <h4>02. Textile Sourcing</h4>
+            <p>Curating the finest sustainable materials, from organic silks to deadstock structured wools.</p>
+          </div>
+        </div>
+
+        <div class="works__item works__item--tall" data-animate>
+          <img src="assets/images/work/pexels-michael-burrows-7148002.jpg" alt="Pattern Drafting" />
+          <div class="works__caption">
+            <h4>03. Pattern Drafting</h4>
+            <p>Translating 2D sketches into complex 3D mathematics, ensuring the garment flows perfectly on the body.</p>
+          </div>
+        </div>
+
+        <div class="works__item" data-animate>
+          <img src="assets/images/work/pexels-pavel-danilyuk-6461116.jpg" alt="Draping and Pinning" />
+          <div class="works__caption">
+            <h4>04. Draping</h4>
+            <p>Molding the fabric directly onto the dress form to capture natural movement and organic volume.</p>
+          </div>
+        </div>
+
+        <div class="works__item works__item--tall" data-animate>
+          <img src="assets/images/work/pexels-cristian-rojas-7998228.jpg" alt="Machine Sewing" />
+          <div class="works__caption">
+            <h4>05. Construction</h4>
+            <p>Precision machine sewing binds the structural foundation of the garment together with invisible seams.</p>
+          </div>
+        </div>
+
+        <div class="works__item" data-animate>
+          <img src="assets/images/work/pexels-anntarazevich-6358793.jpg" alt="Hand Stitching Details" />
+          <div class="works__caption">
+            <h4>06. Hand Finishing</h4>
+            <p>Hours of meticulous hand-stitching, applying lace appliqués and beadwork for the final haute couture touch.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAMPAIGNS SECTION ===== -->
+  <section id="events" class="events">
+    <!-- Re-added top header to match other sections -->
+    <div class="events__header" data-animate>
+      <span class="events__label">EDITORIALS & ADS</span>
+      <h2 class="section-title section-title--dark">Campaigns.</h2>
+      <p class="section-subtitle section-subtitle--dark">Watch the garments come alive in motion. Our cinematic ad campaigns capture the ethereal movement of haute couture against stark realities.</p>
+    </div>
+
+    <div class="events__container">
+      
+      <!-- Left side: Info & Details -->
+      <div class="events__info" data-animate>
+        <h3 style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 600; color: var(--color-dark); margin-bottom: 20px; letter-spacing: -0.02em;">Midnight Solstice</h3>
+        <p class="events__intro">Watch our latest cinematic campaign unfold. This visual editorial captures the ethereal movement of haute couture against stark, industrial environments, emphasizing the contrast between delicate craftsmanship and modern cityscapes.</p>
+        
+        <div class="events__details">
+          <div class="events__detail-item">
+            <h4>The Concept</h4>
+            <p>Shot entirely on 4K digital cinema cameras at midnight, the campaign explores the intersection of light and shadow. We aimed to showcase how silk organza and detailed hand-beading catch ambient city lights, creating a natural luminescent effect without relying on studio lighting.</p>
+          </div>
+          <div class="events__detail-item">
+            <h4>The Garment</h4>
+            <p>The featured dress is a masterclass in structural fluid dynamics. It required over 120 hours of intricate hand-pleating to achieve its signature liquid-metal drape. The asymmetric hem line provides an unrestricted range of motion, allowing the model's stride to breathe life into the silhouette.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side: Portrait Video -->
+      <div class="events__video" data-animate>
+        <div class="events__video-player">
+          <video 
+            src="assets/videos/10669191-720p.mp4" 
+            poster="https://images.unsplash.com/photo-1445205170230-053b83016050?w=1200&q=80"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            style="width: 100%; height: 100%; object-fit: cover;"
+          ></video>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== AWARDS SECTION ===== -->
+  <section id="awards" class="awards">
+    <div class="awards__header" data-animate>
+      <span class="awards__label">RECOGNITION</span>
+      <h2 class="section-title section-title--dark">Global Accolades</h2>
+      <p class="section-subtitle section-subtitle--dark">Distinguished recognition for industry-leading craft, sustainability, and architectural innovation.</p>
+    </div>
+
+    <div class="awards__container">
+      <!-- Award 1 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-enginakyurt-2098604.jpg" alt="LVMH Prize" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Grand Prix winner for architectural silhouettes and sustainable textile development.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag">
+            <span class="award-tag__badge">GLOBAL WINNER</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">LVMH Prize</h4>
+              <span class="award-tag__year">'26</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award 2 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-leeloothefirst-8284020.jpg" alt="CFDA Award" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Honored for redefining modern luxury through gender-fluid tailoring.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag award-tag--alt">
+            <span class="award-tag__badge">EMERGING</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">CFDA Award</h4>
+              <span class="award-tag__year">'25</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award 3 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-luis-alberto-cardenas-otaya-2321018-3990446.jpg" alt="Woolmark Prize" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Global winner for "Merino Motion" material innovation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag">
+            <span class="award-tag__badge">GOLD MEDAL</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">Woolmark</h4>
+              <span class="award-tag__year">'24</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Award 4 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-n-voitkevich-6532365.jpg" alt="Impression Award" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Awarded for innovative visual narrative in high fashion.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag award-tag--alt">
+            <span class="award-tag__badge">EXCELLENCE</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">Impression</h4>
+              <span class="award-tag__year">'25</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cert 1 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-pavel-danilyuk-8112198.jpg" alt="GOTS Organic" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Highest tier certification for global organic textile standards.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag">
+            <span class="award-tag__badge">VERIFIED</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">GOTS Gold</h4>
+              <span class="award-tag__year">'26</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cert 2 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-rdne-7005064.jpg" alt="Cradle to Cradle" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Gold status for product circularity and material health.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag award-tag--alt">
+            <span class="award-tag__badge">CIRCULAR</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">C2C Gold</h4>
+              <span class="award-tag__year">'25</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cert 3 -->
+      <div class="award-item" data-animate>
+        <div class="award-showcase">
+          <div class="award-visual">
+            <div class="award-aura"></div>
+            <img src="assets/images/awards/pexels-rdne-7005186.jpg" alt="B Corp" />
+            <div class="award-reveal">
+              <div class="award-reveal__inner">
+                <p class="award-reveal__desc">Highest standards of verified social and environmental performance.</p>
+              </div>
+            </div>
+          </div>
+          <div class="award-tag">
+            <span class="award-tag__badge">B CORP</span>
+            <div class="award-tag__content">
+              <h4 class="award-tag__title">Certified</h4>
+              <span class="award-tag__year">'24</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer" class="footer">
+    <div class="footer__top" data-animate>
+      <h2 class="footer__big-title">Let's create<br>something iconic.</h2>
+      <a href="mailto:hello@designer.com" class="footer__top-btn">Get in touch</a>
+    </div>
+
+    <div class="footer__container">
+      <div class="footer__brand">
+        <svg class="footer__logo-icon" width="40" height="40" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1.5">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+        </svg>
+        <p class="footer__desc">Redefining modern haute couture with meticulous craftsmanship and experimental silhouettes.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Studio</h4>
+        <a href="#about">About Us</a>
+        <a href="#projects">Collections</a>
+        <a href="#events">Campaigns</a>
+        <a href="#awards">Journal</a>
+      </div>
+      
+      <div class="footer__col">
+        <h4 class="footer__heading">Inquiries</h4>
+        <a href="#">Bespoke Appointments</a>
+        <a href="#">Press & Media</a>
+        <a href="#">Stockists</a>
+      </div>
+      
+      <div class="footer__col">
+        <h4 class="footer__heading">Connect</h4>
+        <p>atharvvpatil02@gmail.com</p>
+        <p>+91 7758968668</p>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">Vogue Runway</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer__bottom">
+      <p>&copy; 2026 Studio. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
